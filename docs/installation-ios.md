@@ -19,3 +19,5 @@
     Replace all of its code with this [reference](https://github.com/wix/react-native-navigation/blob/master/example/ios/example/AppDelegate.m)
 
     Replace `@"index.ios"` with `@"index"` if you are using `index.js` as your entry point instead of `index.ios.js` and `index.android.js` (it is the default since React Native 0.49).
+
+    If you get the following error `“RCTBundleURLProvider.h” file not found - AppDelegate.m`, in the Menu Bar (at the top) go to **Product->Scheme->Manage Schemes** click '+' at the Target to select "React" and set the React is shared (toggle true).
